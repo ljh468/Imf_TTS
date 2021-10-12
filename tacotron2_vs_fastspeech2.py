@@ -104,5 +104,3 @@ write('test.wav', 22050, audios)
 mels, audios = do_synthesis(input_text, fastspeech2, mb_melgan, "FASTSPEECH2", "MB-MELGAN")
 visualize_mel_spectrogram(mels[0])
 ipd.Audio(audios, rate=22050)
-
-# audios.export("/fastspeech2.wav", format="wav")
