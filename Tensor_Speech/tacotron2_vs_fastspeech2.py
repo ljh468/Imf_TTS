@@ -98,7 +98,6 @@ ipd.Audio(audios, rate=22050)
 
 print(type(audios))
 from scipy.io.wavfile import write
-
 write('test.wav', 22050, audios)
 
 mels, audios = do_synthesis(input_text, fastspeech2, mb_melgan, "FASTSPEECH2", "MB-MELGAN")
