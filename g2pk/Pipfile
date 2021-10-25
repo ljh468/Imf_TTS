@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+konlpy = "*"
+jamo = "*"
+nltk = "*"
+python-mecab-ko = {version = "*", platform_system = "!= 'Windows'"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
