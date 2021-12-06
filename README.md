@@ -3,10 +3,12 @@
 
 ## KSS데이터를 활용한 Text to speech service (glow_tts, hifi_gan)
 
-시연 영상 : 
+기본 아키텍처 : 
 ![image](https://user-images.githubusercontent.com/64997253/144811436-6ae110ed-4527-4c81-8585-3f00dcb9253e.png)
 
+Glow_TTS : 
 ![image](https://user-images.githubusercontent.com/64997253/144811459-11332e19-3105-4210-aa26-508865c917f0.png)
+- Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search 논문 참조
 
 ## 적용 기술
         - 프레임워크 : flask restAPI
