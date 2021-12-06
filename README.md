@@ -1,6 +1,4 @@
-# hkcloud-imf
 # TTS project
-
 - Imf_TTS -> SCE_TTS -> pythonfile 에 들어가시면 glow_tts학습, hifi_gan 학습 코드를 확인하실 수 있습니다.
 
 ## KSS데이터를 활용한 Text to speech service (glow_tts, hifi_gan)
